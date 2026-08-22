@@ -72,7 +72,7 @@ export default function Test() {
           <p class="pdsc">A multi-page restaurant site (Menu, Locations, About Us) for a fried-chicken/burger brand, with a hero section, menu categories, and social-proof stats (followers, rating, delivery partners).</p>
         </div>
 
-        <p class="pname"><a href="">chip8 emulator*</a></p>
+        <p class="pname"><a href="https://github.com/alharethalobaid0/chip8-emulator">chip8 emulator*</a></p>
           <p class="pdsc">chip 8 emulator built in c++ "not web related"</p>
 
         <br />
