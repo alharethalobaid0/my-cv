@@ -1,3 +1,3 @@
 # my cv
 
-all my projects is here
+my projects
