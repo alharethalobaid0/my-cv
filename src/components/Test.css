@@ -1,0 +1,60 @@
+@reference "tailwindcss";
+
+
+.sidebar{
+  @apply pl-5;
+}
+
+.img{
+  @apply border border-2 w-20 h-20 rounded-4xl bg-stone-900;
+}
+
+.contact{
+  @apply font-extrabold
+}
+
+.split {
+  height: 100%;
+  width: 30%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.splitr {
+  height: 100%;
+  width: 70%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+.right {
+  right: 0;
+  @apply bg-stone-950;
+}
+
+.foot:hover {
+  opacity: 1;
+}
+
+.hname{
+  @apply mb-0.5 text-xl font-bold;
+}
+
+.pdsc{
+  @apply mb-6 text-gray-600 mx-2;
+}
+
+.pname{
+  @apply text-lg font-medium;
+}
