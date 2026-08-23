@@ -8,7 +8,7 @@ import { AppProvider } from './context/AppContext';
 
 export default function App() {
   return (
-    <main class="mx-auto flex flex-col h-screen bg-base-100 text-base-content">
+    <main class="mx-auto flex flex-col bg-base-100 text-base-content">
       <Router
         root={(props) => (
           <>
