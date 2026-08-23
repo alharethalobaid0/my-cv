@@ -24,6 +24,14 @@ export default function Test() {
 
         <br />
 
+        <div class="education">
+          <h4 class="hname">Education</h4>
+          <p>The Public Authority for Applied Education and Training</p>
+          <p>2027</p>
+        </div>
+
+        <br />
+
         <div class="skills">
           <h6 class="hname">Skills</h6>
         <p class="skillname">HTML/CSS</p>
@@ -45,10 +53,7 @@ export default function Test() {
 
       <div class="sidebar splitr right">
 
-        <div class="about">
-          <h6 class="hname">About</h6>
-          <p>CS student building web apps with SolidJS and Supabase. Looking for an internship where I can grow as a developer and ship real features.</p>
-        </div>
+        
 
         <br />
 
@@ -76,11 +81,10 @@ export default function Test() {
           <p class="pdsc">chip 8 emulator built in c++ "not web related"</p>
 
         <br />
-
-        <div class="education">
-          <h4 class="hname">Education</h4>
-          <p>The Public Authority for Applied Education and Training</p>
-          <p>2027</p>
+        
+        <div class="about">
+          <h6 class="hname">About</h6>
+          <p>CS student building web apps with SolidJS and Supabase. Looking for an internship where I can grow as a developer and ship real features.</p>
         </div>
         
     </div>
