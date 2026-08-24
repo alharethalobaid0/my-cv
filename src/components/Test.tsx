@@ -5,7 +5,6 @@ export default function Test() {
 
   return (
     <>
-      <br />
   <div class="sidebar split left">
       <img class="img" src="https://imgs.search.brave.com/Qz68pnHIiCKnWRcJQ9Lwz68egDHoDotGcqPBgFCbws0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cHJvZmlsZXBpY3R1/cmUuYWkvcmV2aWV3/cy9wZnBfMy53ZWJw" />
         
@@ -86,7 +85,7 @@ export default function Test() {
           <h6 class="hname">About</h6>
           <p>CS student building web apps with SolidJS and Supabase. Looking for an internship where I can grow as a developer and ship real features.</p>
         </div>
-        
+
     </div>
     </>
   );
