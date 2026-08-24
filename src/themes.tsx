@@ -1,2 +1,2 @@
-export const _light = 'bussiness';
-export const _dark = 'bussiness';
+export const _light = 'business';
+export const _dark = 'business';
