@@ -20,6 +20,8 @@
   z-index: 1;
   top: 0;
   overflow-x: hidden;
+  overflow-y: auto;
+  /* add this too, in case sidebar content grows */
   padding-top: 20px;
 }
 
@@ -30,13 +32,13 @@
   z-index: 1;
   top: 0;
   overflow-x: hidden;
+  overflow-y: auto;
   padding-top: 20px;
 }
 
-.left {
-  left: 0;
-  background-color: #111;
-}
+    .left {
+      background-color: #111;
+    }
 
 .right {
   right: 0;
@@ -57,4 +59,16 @@
 
 .pname{
   @apply text-lg font-medium;
+}
+
+@media (max-width: 768px) {
+
+  .split,
+  .splitr {
+    position: static;
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+    overflow-y: visible;
+  }
 }
