@@ -74,6 +74,9 @@ export default function Test() {
 
           <p class="pname"><a href="https://check-in-gules-delta.vercel.app/">check in</a></p>
           <p class="pdsc">A multi-page restaurant site (Menu, Locations, About Us) for a fried-chicken/burger brand, with a hero section, menu categories, and social-proof stats (followers, rating, delivery partners).</p>
+
+          <p class="pname"><a href="https://alhareth-tube.vercel.app/">alhareth-tube</a></p>
+          <p class="pdsc">A video-sharing platform with Browse, Post, and Profile pages, a search bar, and a dynamically loaded video feed where users can discover and upload videos.</p>
         </div>
 
         <p class="pname"><a href="https://github.com/alharethalobaid0/chip8-emulator">chip8 emulator*</a></p>
